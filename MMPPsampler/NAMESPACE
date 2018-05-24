@@ -1,0 +1,3 @@
+useDynLib(MMPPsampler, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("GibbsSampler", "GibbsSampler_hierarchical", "MMPPplot")
