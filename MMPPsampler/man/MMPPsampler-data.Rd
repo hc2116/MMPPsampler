@@ -9,7 +9,7 @@ These two datasets provide test examples to demonstrate the results of the sampl
 
 The first dataset, TestdataMMPP, contains artificial data generated from a Markov-modulated Poisson Process with two states, state decay rates \eqn{Q_ii}=0.01 for both states, and arrival rates \eqn{Lambda} with values 8 and 60 for good visible separation of the states.
 
-The second dataset contains netflow arrival data collected from a personal computer by Clausen et. al (2017) <\url{https://github.com/hc2116/MMPPsampler/blob/master/Master_thesis_Henry.pdf}>, and can be used to test the implementation of the hierarchical MMPP model. The binning interval length is 5 seconds. It was concluded that the data is best described by a model with 5 states. For a more detailed description of the data, I point you to the given reference.
+The second dataset contains netflow arrival data collected from a personal computer by Clausen et. al (2018) <\url{https://doi.org/10.1142/9781786345646_003}>, and can be used to test the implementation of the hierarchical MMPP model. The binning interval length is 5 seconds. It was concluded that the data is best described by a model with 5 states. For a more detailed description of the data, I point you to the given reference.
 
 }
 \author{
@@ -20,6 +20,8 @@ Maintainer: \packageMaintainer{MMPPsampler}
 \references{
 Fearnhead, Paul, and Chris Sherlock. "An exact Gibbs sampler for the Markov-modulated Poisson process." Journal of the Royal Statistical Society: Series B (Statistical Methodology) 68.5 (2006): 767-784 <\doi{10.1111/j.1467-9868.2006.00566.x}>
 
+Clausen, Henry, Mark Briers, and Niall M. Adams. "Bayesian Activity Modelling for Network Flow Data." Data Science For Cyber-security 3 (2018): 55, <\doi{10.1142/9781786345646_003}>
+  
 Clausen, Henry. "A Bayesian Approach to Human Behaviour Modelling in Computer Networks". Master's thesis, Imperial College London, <\url{https://github.com/hc2116/MMPPsampler/blob/master/Master_thesis_Henry.pdf}>
 }
 \seealso{
